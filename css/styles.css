@@ -48,9 +48,10 @@ h6 {
   letter-spacing: 1.12px;
   font-size: 56px;
   line-height: 1.07;
+  max-width: 496px;
 }
 
-.three-h {
+.three-h .main-h {
   margin: 0;
   color: #2e2f42;
   font-weight: 500;
@@ -60,16 +61,21 @@ h6 {
 }
 
 .container {
-  max-width: 1158px;
-  padding-left: 156px;
-  padding-right: 156px;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
+}
+
+img {
+  display: block;
 }
 /* ============ for all - end =========== */
 
 /*  =========== header-start ============ */
 .header {
   flex-grow: 0;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .conteiner-header {
@@ -93,6 +99,7 @@ h6 {
 
 .header-logo {
   padding: 25.5px 0 25.5px 156px;
+  margin-right: 76px;
   display: flex;
 }
 
@@ -101,13 +108,14 @@ h6 {
   line-height: 1.5;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .header-menu {
   color: #2e2f42;
   display: flex;
   gap: 40px;
-  padding: 24px 76px;
+  padding: 24px 0;
 }
 
 .li-studio-header-menu:hover {
@@ -148,9 +156,7 @@ h6 {
 .main-title {
   background-color: #2e2f42;
   text-align: center;
-  padding: 188px;
-  padding-left: 472px;
-  padding-right: 472px;
+  padding: 188px 0;
 }
 
 button {
@@ -172,8 +178,16 @@ button:focus {
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
   padding: 16px 32px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 /* === section 2 === */
+.main-h {
+  margin-bottom: 8px;
+}
+
 .main-p {
   margin: 0;
   line-height: 1.5;
@@ -185,10 +199,25 @@ button:focus {
   flex-direction: row;
   gap: 24px;
   padding-left: 156px;
+  width: calc((100% - 72px) / 4);
+}
+
+.visually-hiden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 /* === section 3 === */
 .h-main-list-team {
-  padding-bottom: 72px;
+  margin-bottom: 8px;
+  margin-bottom: 72px;
   margin: 0;
   color: #2e2f42;
   font-size: 36px;
@@ -204,6 +233,7 @@ button:focus {
 }
 
 .li-main-list-team {
+  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #fff);
@@ -225,12 +255,12 @@ button:focus {
 
 .ul-main-list-team {
   display: flex;
-  gap: calc((10% - 24px) / 4);
+  gap: 24px;
   padding-left: 156px;
 }
 /* === section 4 === */
 .h-main-list-portfolio {
-  padding-bottom: 72px;
+  margin-bottom: 8px;
   margin: 0;
   color: #2e2f42;
   font-size: 36px;
@@ -242,7 +272,7 @@ button:focus {
 
 .ul-main-list-portfolio {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   gap: 24px;
   padding-left: 156px;
   padding-right: 156px;
@@ -251,8 +281,9 @@ button:focus {
 
 .li-main-list-portfolio {
   text-align: left;
-  border: 1px solid #e7e9fc;
   background: #fff;
+  width: calc((100% - 48px) / 3);
+  padding: 32px 16px;
 }
 
 .main-text-portfolio {
@@ -260,6 +291,7 @@ button:focus {
   flex-direction: column;
   gap: 8px;
   margin: 32px 10px;
+  border: 1px solid #e7e9fc;
 }
 /* ============ main-end ============*/
 
@@ -268,6 +300,7 @@ button:focus {
 .footer {
   background-color: #2e2f42;
   flex-shrink: 0;
+  padding: 100px 0;
 }
 
 .footer-conteiner {
@@ -275,6 +308,11 @@ button:focus {
   flex-direction: column;
   padding: 101px 156px;
   gap: 17.5px;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-color-logo {
