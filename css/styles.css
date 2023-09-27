@@ -1,0 +1,145 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.31; /* font-size / line-height = */
+  letter-spacing: 0.32px;
+  font-style: normal;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.one-h {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1.12px;
+  font-size: 56px;
+  line-height: 1.07;
+}
+.two-h {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.three-h {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+button {
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #404bbf;
+}
+button:focus {
+  background-color: #404bbf;
+}
+.main-button {
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.64px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-nav {
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.header-menu {
+  color: #2e2f42;
+}
+
+.li-studio-header-menu:hover {
+  color: #404bbf;
+}
+.li-studio-header-menu:focus {
+  color: #404bbf;
+}
+
+.head-address {
+  line-height: 1.5;
+  font-style: normal;
+}
+.list-head-address {
+  color: #434455;
+}
+.list-head-address:hover {
+  color: #404bbf;
+}
+.list-head-address:focus {
+  color: #404bbf;
+}
+
+.main-title {
+  background-color: #2e2f42;
+  text-align: center;
+}
+
+.main-p {
+  line-height: 1.5;
+}
+
+.main-list-team {
+  background-color: #f4f4fd;
+  text-align: center;
+}
+
+.li-main-list {
+  background-color: #ffffff;
+}
+
+.main-list-portfolio {
+  text-align: center;
+}
+
+.header-logo,
+.footer-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.header-color-logo {
+  color: #2e2f42;
+}
+.footer-color-logo {
+  color: #f4f4fd;
+}
+/*   .header-logo:hover,
+.footer-logo:hover,
+.header-color-logo:hover,
+.footer-color-logo:hover {
+  color: #404bbf;
+}   */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-p {
+  color: #f4f4fd;
+  line-height: 1.5;
+}
