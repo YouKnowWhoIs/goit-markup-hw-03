@@ -48,7 +48,6 @@ h6 {
 }
 
 .three-h .main-h {
-  margin: 0;
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -65,6 +64,7 @@ section {
 }
 
 .container {
+  /* margin: 0 auto; */
   width: 1158px;
   padding: 0 15px;
 }
@@ -286,6 +286,15 @@ button:focus {
   margin-bottom: 72px;
 }
 
+.p-main-portfolio {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  margin-bottom: 8px;
+}
+
 .ul-main-list-portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -329,7 +338,6 @@ button:focus {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
-  display: inline-block;
 }
 
 .footer-color-logo {
