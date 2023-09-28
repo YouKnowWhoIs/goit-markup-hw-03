@@ -38,15 +38,6 @@ h6 {
   padding: 0;
 }
 
-.one-h {
-  color: #fff;
-  font-weight: 700;
-  letter-spacing: 1.12px;
-  font-size: 56px;
-  line-height: 1.07;
-  max-width: 496px;
-}
-
 .three-h .main-h {
   color: #2e2f42;
   font-weight: 500;
@@ -64,7 +55,7 @@ section {
 }
 
 .container {
-  /* margin: 0 auto; */
+  margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
 }
@@ -157,6 +148,15 @@ section {
 }
 
 /* === section 1 === */
+.one-h {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1.12px;
+  font-size: 56px;
+  line-height: 1.07;
+  max-width: 496px;
+}
+
 .main-title {
   background-color: #2e2f42;
   text-align: center;
@@ -188,8 +188,10 @@ button:focus {
   border: none;
 }
 
-.container-main {
-  text-align: center;
+.container-noe-h,
+.container-button {
+  display: flex;
+  justify-content: center;
 }
 /* === section 2 === */
 .main-h {
@@ -312,9 +314,10 @@ button:focus {
 .main-text-portfolio {
   display: flex;
   flex-direction: column;
+
   gap: 8px;
-  margin: 32px 10px;
   padding: 32px 16px;
+
   border: 1px solid #e7e9fc;
   border-top: none;
 }
@@ -331,7 +334,6 @@ button:focus {
 .footer-conteiner {
   display: flex;
   flex-direction: column;
-  padding: 0 0 0 156px;
   gap: 17.5px;
 }
 
