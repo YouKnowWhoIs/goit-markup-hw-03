@@ -55,8 +55,8 @@ section {
 }
 
 .container {
-  margin: 0 auto;
   width: 1158px;
+  margin: 0 auto;
   padding: 0 15px;
 }
 /* ============ for all - end =========== */
@@ -161,6 +161,8 @@ section {
   background-color: #2e2f42;
   text-align: center;
   padding: 188px 0;
+  display: flex;
+  justify-content: center;
 }
 
 button {
@@ -186,12 +188,6 @@ button:focus {
   min-width: 169px;
   height: 56px;
   border: none;
-}
-
-.container-noe-h,
-.container-button {
-  display: flex;
-  justify-content: center;
 }
 /* === section 2 === */
 .main-h {
@@ -343,6 +339,7 @@ button:focus {
 }
 
 .footer-color-logo {
+  display: inline-block;
   color: #f4f4fd;
 }
 
