@@ -15,10 +15,6 @@ body {
   font-style: normal;
 }
 
-section {
-  padding: 120px 0;
-}
-
 ul {
   margin-top: 0;
   margin-bottom: 0;
@@ -60,15 +56,12 @@ h6 {
   letter-spacing: 0.4px;
 }
 
-.container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
 img {
   display: block;
+}
+
+section {
+  padding: 120px 0;
 }
 /* ============ for all - end =========== */
 
@@ -76,6 +69,10 @@ img {
 .header {
   flex-grow: 0;
   border-bottom: 1px solid #e7e9fc;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .conteiner-header {
@@ -98,7 +95,6 @@ img {
 }
 
 .header-logo {
-  padding: 25.5px 0 25.5px 156px;
   margin-right: 76px;
   display: flex;
 }
@@ -115,7 +111,6 @@ img {
   color: #2e2f42;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .li-studio-header-menu:hover {
@@ -145,6 +140,9 @@ img {
   padding: 24px 0 24px 332px;
 }
 
+.li-header-menu {
+  padding: 24px 0;
+}
 /* ============ header-end ============ */
 
 /* ============ main-start ============*/
@@ -183,6 +181,10 @@ button:focus {
   height: 56px;
   border: none;
 }
+
+.container-main {
+  text-align: center;
+}
 /* === section 2 === */
 .main-h {
   margin-bottom: 8px;
@@ -198,11 +200,13 @@ button:focus {
   display: flex;
   flex-direction: row;
   gap: 24px;
-  padding-left: 156px;
+}
+
+.li-main-list {
   width: calc((100% - 72px) / 4);
 }
 
-.visually-hiden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -214,10 +218,9 @@ button:focus {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 /* === section 3 === */
 .h-main-list-team {
-  margin-bottom: 8px;
-  margin-bottom: 72px;
   margin: 0;
   color: #2e2f42;
   font-size: 36px;
@@ -225,6 +228,16 @@ button:focus {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.h-main-team {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.p-main-team {
+  text-align: center;
 }
 
 .main-list-team {
@@ -233,10 +246,9 @@ button:focus {
 }
 
 .li-main-list-team {
-  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  background: var(--WHITE, #fff);
+  width: calc((100% - 72px) / 4);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -256,24 +268,23 @@ button:focus {
 .ul-main-list-team {
   display: flex;
   gap: 24px;
-  padding-left: 156px;
 }
 /* === section 4 === */
 .h-main-list-portfolio {
-  margin-bottom: 8px;
-  margin: 0;
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .ul-main-list-portfolio {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   padding-left: 156px;
   padding-right: 156px;
   padding-bottom: 48px;
@@ -283,7 +294,6 @@ button:focus {
   text-align: left;
   background: #fff;
   width: calc((100% - 48px) / 3);
-  padding: 32px 16px;
 }
 
 .main-text-portfolio {
@@ -291,7 +301,9 @@ button:focus {
   flex-direction: column;
   gap: 8px;
   margin: 32px 10px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 /* ============ main-end ============*/
 
@@ -306,13 +318,14 @@ button:focus {
 .footer-conteiner {
   display: flex;
   flex-direction: column;
-  padding: 101px 156px;
+  padding: 0 0 0 156px;
   gap: 17.5px;
 }
 
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-color-logo {
