@@ -63,6 +63,11 @@ img {
 section {
   padding: 120px 0;
 }
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+}
 /* ============ for all - end =========== */
 
 /*  =========== header-start ============ */
@@ -75,7 +80,7 @@ section {
   margin: 0 auto;
 }
 
-.conteiner-header {
+.container-header {
   display: flex;
   flex-direction: row;
 }
@@ -111,6 +116,7 @@ section {
   color: #2e2f42;
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .li-studio-header-menu:hover {
@@ -140,9 +146,6 @@ section {
   padding: 24px 0 24px 332px;
 }
 
-.li-header-menu {
-  padding: 24px 0;
-}
 /* ============ header-end ============ */
 
 /* ============ main-start ============*/
