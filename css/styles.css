@@ -116,6 +116,9 @@ section {
   color: #2e2f42;
   display: flex;
   gap: 40px;
+}
+
+.li-studio-header-menu {
   padding: 24px 0;
 }
 
@@ -288,8 +291,6 @@ button:focus {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  padding-left: 156px;
-  padding-right: 156px;
   padding-bottom: 48px;
 }
 
