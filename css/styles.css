@@ -1,7 +1,6 @@
 /* ============ for all - start =========== */
 * {
   box-sizing: border-box;
-  margin: 0;
 }
 
 body {
@@ -155,6 +154,7 @@ section {
   font-size: 56px;
   line-height: 1.07;
   max-width: 496px;
+  margin: 0 auto;
 }
 
 .main-title {
@@ -168,6 +168,7 @@ section {
 button {
   background-color: #4d5ae5;
   cursor: pointer;
+  margin: 0 auto;
   margin-top: 48px;
   border-radius: 4px;
 }
@@ -328,8 +329,6 @@ button:focus {
 }
 
 .footer-conteiner {
-  display: flex;
-  flex-direction: column;
   gap: 17.5px;
 }
 
